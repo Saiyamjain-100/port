@@ -479,7 +479,20 @@
         max-width: 50%;
     }
 }
-
+@media(max-width:650px)
+{
+    .asdd{
+        display: block;
+    }
+    .s2 {
+        margin:0px;
+       max-width: 50%;
+    }
+    .s1 {
+        margin:0px;
+        max-width: 50%;
+    }
+}
 .Contact{
     background-color: black;
 }
@@ -514,7 +527,7 @@
 }
 .Contact .contactcontent .submit{
     border: 2px solid white;
-    width: 10%;
+    width: 80px;
 }
 .Contact .contactcontent input:hover{
     transform: scale(1.03);
