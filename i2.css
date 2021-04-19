@@ -5,8 +5,7 @@
 
 body{
     width: 100%;
-    margin: 0px;
-    padding: 0px;
+
 }
 .header{
     position: fixed;
@@ -211,7 +210,9 @@ body{
     width: 100%;
     align-items: center;
 }
-
+.coloum img{
+    width: 350px;
+}
 @media (max-width:650px){
     .row1{
        
@@ -243,11 +244,7 @@ body{
         margin: 0px 10px 0 40px ;
     }
  
-    .container{
-        justify-content:center;
-        align-content: center;
-        display:flex;
-    }
+ 
 }
 
 
@@ -258,42 +255,11 @@ body{
     margin: 10px;
     text-align: center;
     margin-left: 20px;
-    width: 75%;
-    min-height: 300px;
+
+
     box-shadow: 0px 0px 2px 4px  rgb(226, 152, 152);
     box-sizing: content-box;
    transition: 0.5s ease;
-}
-.q2{
-    position: relative;
-    padding:10px;
-    align-items: center;
-    margin: 10px;
-    text-align: center;
-    margin-left: 20px;
-    transition: 0.5s ease;
-    width: 75%;
-    min-height: 300px;
-    box-shadow: 0px 0px 2px 4px  rgb(226, 152, 152);
-  
-    border: 1px solid grey;
-   
-}
-
-.q3{
-    position: relative;
-    padding:10px;
-    align-items: center;
-    transition: 0.5s ease;
-    margin: 10px;
-    text-align: center;
-    margin-left: 20px;
-    width: 75%;
-    min-height: 300px;
-    box-shadow: 0px 0px 2px 4px  rgb(226, 152, 152);
-    
-   
-    border: 1px solid grey;
 }
 
 .q1:hover{
@@ -303,33 +269,19 @@ body{
     transform: scale(1.05);
 }
 
-.q2:hover{
-    border: 0.5px solid blue;
-    transform: scale(1.05);
-    background-color: black;
-    color: white;
-}
-
-.q3:hover{
-    border: 0.5px solid blue;
-    transform: scale(1.05);
-    background-color: black;
-    color: white;
-}
 .qback{
-    
     align-items: center;
     display: flex;
-}
-.Qualification{
     padding: 60px 0px ;
     justify-content: center;
     align-content: center;
     margin: 30px 5px 20px 5px;
 }
+
 .Qualification h2{
     font-size: 50px;
     text-align: center;
+    display: block;
     margin: 40px 0px 40px 0px;
     padding: 10px 0px;
 }
@@ -338,22 +290,16 @@ body{
 {
     .qback
     {
-        
         margin: 15px 10px 15px 10px ;
         padding: 10px;
         display: block;
     }
     .q1{
         width: 80%;
+        display: block;
     }
     
-.q2{
-    width: 80%;
-}
 
-.q3{
-    width: 80%;
-}
 
 }
 @media (max-width:800px)
